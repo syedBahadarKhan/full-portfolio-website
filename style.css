@@ -83,7 +83,7 @@ p{
     color: crimson;
 }
 
-
+/* header section styling start here */
 #header {
     position: fixed;
     z-index: 1000;
@@ -194,6 +194,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -237,3 +238,78 @@ p{
     letter-spacing: initial;
 
 }
+
+#header .nav-list ul li:hover a{
+    color: crimson;
+}
+
+/* responsivenes for desktop */
+@media screen and (min-width: 1100px){
+    #header .hamburger{
+        display: none;
+    }
+    
+#header .nav-list ul{
+    position:initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent; 
+}
+
+#header .nav-list ul li{
+    display: inline-block;
+}
+
+#header .nav-list ul a{
+    font-size: 1.8rem;
+
+}
+#header .nav-list ul a::after{
+    display: none;
+}
+}
+/* header section styling end here */
+
+
+
+/* hero section styling start here */
+#hero{
+    background-image: url(./assets/images/hero.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after{
+    content :"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+#hero .hero{
+    max-width: 1200px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: white;
+    animation: text-reveal 1s ease forwards;
+    animation-delay: 1s;
+}
+
+
