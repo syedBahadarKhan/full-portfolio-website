@@ -711,8 +711,8 @@ p{
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
-    /* margin: 0 auto;
-    margin-bottom: 20px; */
+    margin: 0 auto;
+    margin-bottom: 20px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -787,6 +787,59 @@ p{
 
 
 /* contact section  styling end here */
+
+
+/* footer styling start here  */
+#footer{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer{
+   min-height: 130px;
+   flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 10px;
+}
+
+
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icons{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+#footer p {
+    color:white;
+    font-size: 1.4rem;
+}
+
+#footer  .social-item img{
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+
+
+#footer  .social-item:hover img{
+    filter: grayscale(0);
+}
+
+
+
+/* footer styling end here  */
 
 
 
