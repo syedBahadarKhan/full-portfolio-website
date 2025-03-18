@@ -844,6 +844,10 @@ p{
     filter: grayscale(0);
 }
 
+#footer .footer p{
+    color:white;
+}
+
 
 
 /* footer styling end here  */
