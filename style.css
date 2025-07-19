@@ -714,10 +714,10 @@ p{
     text-align: center;
     border-radius: 10px;
     padding: 30px;
-    margin: 20px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
+     /* margin: 20px; */
+    margin: 0 auto; 
+    /* margin-bottom: 20px; */
+    /* margin-top: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -731,21 +731,26 @@ p{
 }
 
 #contact .icon{
-    width: 70px;
+    width: 40px;
     margin: 0px auto;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
 }
 
 #contact .contact-item h1{
     font-size:2.5rem;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 #contact .contact-item h3{
     font-size: 1.3rem;
-    font-weight: 500;
-    line-height: 2rem;
+    font-weight: 400;
+    /* line-height: 2rem; */
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -769,13 +774,14 @@ p{
 
     #contact .contact-item{
         width: 30%;
+         
         margin: 0;
         flex-direction: row;
    
     }
     #contact .contact-item .icon{
         height: 100px;
-        width: 100px;
+        width: 80px;
     }
 
     #contact .contact-item .icon img{
@@ -783,9 +789,10 @@ p{
     }
     
     #contact .contact-item .contact-info{
-        text-align: left;
+        text-align: right;
         width: 100%;
         padding-left: 20px;
+       
      
        
     }
